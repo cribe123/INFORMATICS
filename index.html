@@ -47,6 +47,7 @@
         .rhl {
             color: gray;
             margin-right: 20px;
+            text-decoration: none;
         }
 
         .rhl {
@@ -92,7 +93,7 @@
             justify-content: space-between;
         }
 
-        a {
+        .g {
             border-radius: 16px;
             padding-top: 20px;
             padding-bottom: 20px;
@@ -102,7 +103,7 @@
             color: white;
         }
 
-        a:hover {
+        .g:hover {
             border-radius: 16px;
             padding-top: 16px;
             padding-bottom: 16px;
@@ -139,6 +140,9 @@
             color: gray;
             font-size: small;
         }
+        a {
+            text-decoration: none;
+        }
     </style>
     <script src="https://kit.fontawesome.com/c9a42331c6.js" crossorigin="anonymous"></script>
 </head>
@@ -146,15 +150,16 @@
 <body>
     <header>
         <h3>Egor Eltsov</h3>
-        <article><span class="rh">Home</span><span class="rh">Resume</span><span class="rhl">Projects</span></article>
+        <article><a class="rh">Home</a><a class="rh" href="index2.html">Resume</a><a class="rhl" href="index3.html">Projects</a></article>
     </header>
+    <hr>
     <main>
         <div class="lm">
             <span class="bl">STUDENT · DEVELOPMENT · DESIGN</span>
             <h3 class="rhu">Nice to meet you</h3>
             <h1 class="zglm">Let's create</h1>
             <h1 class="zglm">website together</h1>
-            <div class="knr"><a>Resume</a><a>Projects</a></div>
+            <div class="knr"><a href="index2.html" class="g">Resume</a><a href="index3.html" class="g">Projects</a></div>
         </div>
         <img class="u" src="https://i.postimg.cc/W3kQTSrN/0ab68c96-f799-5a2e-988f-87ceba818ba7.jpg" width="35%"
             height="35%">
